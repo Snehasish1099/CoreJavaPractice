@@ -25,6 +25,6 @@ class TestCart
 		myCart.addItem(drinks);
 		
 		
-		System.out.println("Total bill is "+myCart.calcBill());    /////////
+		System.out.println("Total bill is "+myCart.calcBill());    //Prints the total bill by calculating 
 	}
 }
