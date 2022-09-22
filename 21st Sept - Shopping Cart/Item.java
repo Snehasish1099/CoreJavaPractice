@@ -4,7 +4,7 @@ Program: Bin class for Cart
 @date: 21st Sept, 2022
 */
 
-
+//Declaring the class Item
 class Item
 {
 	//Instance variables
