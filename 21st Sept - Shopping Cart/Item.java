@@ -26,9 +26,7 @@ class Item
 	}
 	
 	void insertItem()
-	{
-		Scanner sc= new Scanner(System.in);    //for taking i/p
-	  
+	{ 
 		System.out.println("Enter the details of Item:");
 	   
 		System.out.println("Item Name:");          //printing item name
@@ -41,13 +39,13 @@ class Item
 		this.totalPrice= sc.nextDouble();	
 	}
 	
-	void displayItem()
+	void displayItem()		//Displays output as shown in the below format
 	{
 		System.out.println("Item Name: "+ this.itemName+" "+ "Quantity:"+ this.quantity+ " "+"Total Price:  "+this.totalPrice);
 	}
 	
 	
-	//Getter and Setter 
+	//Getter and Setter for...
 	
 	public void setCartItem(String cartItem) 		//cartItem
 	{
