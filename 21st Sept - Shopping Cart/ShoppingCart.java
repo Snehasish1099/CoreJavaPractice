@@ -29,7 +29,7 @@ class ShoppingCart
 		return bill;
 	}
 	
-	public void addItem(Item input)
+	public void addItem(Item input)               		//For adding newitems in the cart if possible
 	{
 		if(storedItems < cart.length)
 		{	cart[storedItems] = input;
