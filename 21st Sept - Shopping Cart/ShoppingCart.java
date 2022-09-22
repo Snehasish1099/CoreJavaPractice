@@ -4,8 +4,10 @@ Program: Project of Shopping cart
 @date: 21st Sept, 2022
 */
 
+//Declaring the class ShoppingCart
 class ShoppingCart
 {
+	//Declaring instance variables
 	private Item[] cart;
 	private double bill;
 	private int storedItems;
@@ -13,21 +15,16 @@ class ShoppingCart
 	//
 	ShoppingCart()
 	{
-		cart = new Item[4]; 	//Constructor to create the specified no. of items
+		cart = new Item[4]; 	//Constructor to create the specified no. of items i.e. here 4
 	}
 	//
 	
-	/* ShoppingCart(int n)
-	{
-		cart = new Item[n];
-	} 
-	*/
 	
 	public double calcBill()
 	{
 		for(int i=0; i<cart.length; i++)
 		{
-			bill += cart[i].getTotalPrice();  /////////
+			bill += cart[i].getTotalPrice();  //Calculates the bill by adding the total price of each items
 		}
 		return bill;
 	}
